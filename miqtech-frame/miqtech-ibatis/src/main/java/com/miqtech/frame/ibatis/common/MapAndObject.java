@@ -22,7 +22,7 @@ public class MapAndObject {
 				boolean accessFlag = fields[i].isAccessible();
 				// 修改访问控制权限
 				fields[i].setAccessible(true);
-				// 获取在对象f中属性fields[i]对应的对象中的变量
+				// 获取在对象f中属性fields[i]对应的对象中的变量11111
 				Object o = fields[i].get(obj);
 				if (o != null)
 					map.put(varName, o);
