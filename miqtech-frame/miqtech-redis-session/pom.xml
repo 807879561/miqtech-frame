@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.miqtech.frame</groupId>
+    <artifactId>miqtech-frame</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <groupId>com.miqtech.session</groupId>
+  <artifactId>miqtech-redis-session</artifactId>
+  <distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>http://192.168.30.243:8081/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
+</project>
